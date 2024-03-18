@@ -1,27 +1,25 @@
 let config = {
-
-	containerColorBG: "#353336",
-	contentColorBG: "#525053",
-
-	countRows: 6,
-	countCols: 7,
-
-	offsetBorder: 10,
-	borderRadius: 8,
-		
-	gemSize: 64,
-
-	imagesCoin: ["coin_1.png", "coin_2.png", "coin_3.png", "coin_4.png", "coin_5.png", "coin_6.png", "coin_7.png", "coin_8.png"],
-
-	gemClass:"gem",
-	gemIdPrefix: "gem",
-	gameStates: ["pick", "switch", "revert", "remove", "refill"],
-	gameState: "",
-	
-	movingItems: 0,
-
-	countScore: 0
+    containerColorBG: "#353336",
+    contentColorBG: "#525053",
+    countRows: 8, // Здесь можно изменить количество строк
+    countCols: 5, // Здесь можно изменить количество столбцов
+    offsetBorder: 5,
+    borderRadius: 8,
+    
+    gemSize: 64, // Меняем размер монет
+    
+    imagesCoin: ["coin_1.png", "coin_2.png", "coin_3.png", "coin_4.png", "coin_5.png", "coin_6.png", "coin_7.png", "coin_8.png"],
+    
+    gemClass: "gem",
+    gemIdPrefix: "gem",
+    gameStates: ["pick", "switch", "revert", "remove", "refill"],
+    gameState: "",
+    
+    movingItems: 0,
+    
+    countScore: 0
 }
+
 
 let player = {
 	selectedRow: -1,
